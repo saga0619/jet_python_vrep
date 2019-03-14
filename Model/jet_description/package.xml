@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>jet_description</name>
+  <version>1.2.1</version>
+  <description>
+      URDF description for Dyros jet
+  </description>
+
+  <author>jh Ahn</author>
+  <maintainer email="june992@snu.ac.kr">jh Ahn</maintainer>
+
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+
+  <export>
+  </export>
+</package>
