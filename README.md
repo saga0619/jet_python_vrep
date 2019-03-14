@@ -18,7 +18,7 @@
     
  5. Open Robot.ttt file with Vrep, for example
  
-   ```sudo $HOME/vrep/vrep.sh $Home/source/Robot.ttt```
+   ```sudo $HOME/vrep/vrep.sh $Home/source/dyros_jet.ttt```
    
    and Turn on the Bluezero server
    
