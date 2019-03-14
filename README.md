@@ -1,4 +1,4 @@
-# vrep-python-test
+# vrep-python for dyros_jet
 
 1. Download and extract recent V-REP PRO/DEU (Hereafter, vrep folder)
 2. Git clone this repository (Hereafter, source folder)
