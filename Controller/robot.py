@@ -6,9 +6,9 @@ class RobotState:
     def __init__(self):
         filename = str(os.path.dirname(os.path.abspath(__file__)))
         pkg = filename + '/../Model'
-        urdf = pkg + '/ur_description/urdf/ur5.urdf'
+        urdf = pkg + '/jet_description/urdf/dyros_jet_robot.urdf'
         self.robot = RobotWrapper.BuildFromURDF(urdf,[pkg,])
-        self.srdf = pkg + '/srdf/ur5.srdf'
+        self.srdf = pkg + '/srdf/dyros_jet_robot.srdf'
         self.model = self.robot.model
         self.data = self.robot.data
 

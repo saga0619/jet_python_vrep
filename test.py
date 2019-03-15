@@ -29,7 +29,7 @@ qdes = []
 from Controller import robot
 robot = robot.RobotState()
 robot.updateKinematics(np.matrix(np.zeros(cf.dof)).T, np.matrix(np.zeros(cf.dof)).T)
-#robot.placement('L_HandYaw') # urdf index
+robot.placement('L_HandYaw') # urdf index
 
 
 while not exit_flag:    
